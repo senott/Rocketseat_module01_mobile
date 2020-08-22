@@ -1,7 +1,10 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://192.168.100.102:3333/'
+  // Android emulator
+  // baseURL: 'http://10.0.2.2:3333'
+  // iOS
+  baseURL: 'http://localhost:3333'
 });
 
 export default api;
